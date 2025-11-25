@@ -1,20 +1,64 @@
 import {FaUser, FaLock} from 'react-icons/fa'
+import { useState } from 'react'
 import './Login.css'
 
 const Login = () => {
+
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+
+    alert('Formulario Enviado:'+ username + " - " + password)
+
+    setUsername("");
+    setPassword("");
+  }
+
+
   return (
     <div className="container">
-        <form>
+        <form onSubmit={handleSubmit}>
             <h1>Acesso ao Sistema</h1>
-            <div>
-                <input type="email" name="email" id="email" placeholder='E-mail' />
+            <div className='input-field'>
+                <input 
+                  type="email" 
+                  name="email" 
+                  id="email" 
+                  placeholder='E-mail'
+                  onChange={(e) => setUsername(e.target.value)}
+                  value={username}
+                />
                 <FaUser className='icon'/>
             </div>
-            <div>
-                <input type="password" name="password" id="password" placeholder='Senha' />
+            <div className='input-field'>
+                <input 
+                  type="password" 
+                  name="password" 
+                  id="password" 
+                  placeholder='Senha'
+                  onChange={(e) => setPassword(e.target.value)}
+                  value={password} 
+                />
                 <FaLock className='icon'/>
             </div>
+
+            <div className="recall-forget">
+              <label>
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                Lembre de mim
+              </label>
+              <a href="#">Esqueceu a senha ?</a>
+            </div>
+
             <button>Entrar</button>
+
+            <div className="signup-link">
+              <p>
+                Não tem uma conta ? <a href="#">Registrar</a>
+              </p>
+            </div>
         </form>
     </div>
   )
