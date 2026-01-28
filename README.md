@@ -20,18 +20,19 @@ Esse projeto foi desenvolvido com:
 🔹 Deploy no GitHub Pages
 
 📁 Estrutura do Projeto
-react-login/
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── package.json
-├── vite.config.js
-└── README.md
+    react-login/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── assets/
+    │   ├── components/
+    │   ├── App.jsx
+    │   └── main.jsx
+    ├── .gitignore
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
+
 
 ⚙️ Como Usar (Instalação)
 
