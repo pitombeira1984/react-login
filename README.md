@@ -1,11 +1,11 @@
-📌 Tela de Login em React
+# 📌 Tela de Login em React
 
 Este é o projeto Tela de Login em React, uma aplicação simples criada com React + Vite que exibe uma interface de login funcional e pode servir de base para autenticação em seus projetos.
 
 🌐 Demo online:
 ➡️ https://pitombeira1984.github.io/react-login/
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido com:
 
@@ -19,22 +19,25 @@ Esse projeto foi desenvolvido com:
 
 🔹 Deploy no GitHub Pages
 
-📁 Estrutura do Projeto
-    react-login/
-    ├── public/
-    │   └── index.html
-    ├── src/
-    │   ├── assets/
-    │   ├── components/
-    │   ├── App.jsx
-    │   └── main.jsx
-    ├── .gitignore
-    ├── package.json
-    ├── vite.config.js
-    └── README.md
+## 📁 Estrutura do Projeto
+
+```plaintext
+react-login/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
 
 
-⚙️ Como Usar (Instalação)
+
+## ⚙️ Como Usar (Instalação)
 
 Clone o repositório
 
@@ -55,7 +58,7 @@ O projeto será aberto em:
 
 http://localhost:5173
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
 ✔️ Formulário de Login com campos de entrada
 ✔️ Validação básica dos campos
@@ -63,7 +66,7 @@ http://localhost:5173
 
 💡 Essa é uma base perfeita para você adicionar conexão com APIs de autenticação, Redux ou NextAuth no futuro!
 
-📦 Scripts Disponíveis
+## 📦 Scripts Disponíveis
 
 No diretório do projeto, você pode rodar:
 
@@ -72,7 +75,7 @@ npm run dev	Roda a aplicação no modo de desenvolvimento
 npm run build	Gera os arquivos otimizados para produção
 npm run preview	Visualiza o build final localmente
 
-🛠️ Deployment
+## 🛠️ Deployment
 
 Este projeto está publicado utilizando GitHub Pages.
 Caso queira refazer o deploy:
@@ -95,11 +98,11 @@ Rode:
 
 npm run deploy
 
-🤝 Contribuições
+## 🤝 Contribuições
 
 Contribuições são bem-vindas!
 Quer melhorar o design, adicionar autenticação com backend ou criar validações avançadas? Abra uma issue ou faça um pull request. 😊
 
-📄 Licença
+## 📄 Licença
 
 No momento sem Licença.
