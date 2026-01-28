@@ -105,4 +105,4 @@ Quer melhorar o design, adicionar autenticação com backend ou criar validaçõ
 
 **📄 Licença**
 
-No momento sem Licença.
+Este projeto está com licença MIT — fique à vontade para usar em seus portfólios e projetos pessoais.
