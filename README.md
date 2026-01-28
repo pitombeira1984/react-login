@@ -34,17 +34,17 @@ react-login/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 
+## ⚙️ Como Usar (Instalação)
 
-**⚙️ Como Usar (Instalação)**
-
-Clone o repositório
+**Clone o repositório**
 
 git clone https://github.com/pitombeira1984/react-login.git
 
 
-Instale as dependências
+**Instale as dependências**
 
 npm install
 
@@ -58,7 +58,7 @@ O projeto será aberto em:
 
 http://localhost:5173
 
-**📌 Funcionalidades**
+## 📌 Funcionalidades
 
 ✔️ Formulário de Login com campos de entrada
 ✔️ Validação básica dos campos
@@ -66,7 +66,7 @@ http://localhost:5173
 
 💡 Essa é uma base perfeita para você adicionar conexão com APIs de autenticação, Redux ou NextAuth no futuro!
 
-**📦 Scripts Disponíveis**
+## 📦 Scripts Disponíveis
 
 No diretório do projeto, você pode rodar:
 
@@ -75,17 +75,17 @@ npm run dev	Roda a aplicação no modo de desenvolvimento
 npm run build	Gera os arquivos otimizados para produção
 npm run preview	Visualiza o build final localmente
 
-**🛠️ Deployment**
+## 🛠️ Deployment
 
 Este projeto está publicado utilizando GitHub Pages.
 Caso queira refazer o deploy:
 
-Instale o pacote:
+**Instale o pacote:**
 
 npm install gh-pages --save-dev
 
 
-Ajuste o package.json com os scripts:
+**Ajuste o package.json com os scripts:**
 
 "homepage": "https://pitombeira1984.github.io/react-login",
 "scripts": {
@@ -94,15 +94,15 @@ Ajuste o package.json com os scripts:
 }
 
 
-Rode:
+**Rode:**
 
 npm run deploy
 
-**🤝 Contribuições**
+## 🤝 Contribuições
 
 Contribuições são bem-vindas!
 Quer melhorar o design, adicionar autenticação com backend ou criar validações avançadas? Abra uma issue ou faça um pull request. 😊
 
-**📄 Licença**
+## 📄 Licença
 
 Este projeto está com licença MIT — fique à vontade para usar em seus portfólios e projetos pessoais.
