@@ -22,18 +22,35 @@ Esse projeto foi desenvolvido com:
 ## 📁 Estrutura do Projeto
 
 ```plaintext
-react-login/
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── package.json
-├── vite.config.js
-└── README.md
+REACT_LOGIN/
+└── vite-login/
+    ├── dist/
+    │   ├── assets/
+    │   │   ├── cidade-Cj77gj3f.jpg
+    │   │   ├── index-BlmG9vQC.js
+    │   │   └── index-Crbj32k5.css
+    │   └── index.html
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    │   ├── assets/
+    │   │   └── cidade.jpg
+    │   ├── components/
+    │   │   └── login/
+    │   │       ├── Login.css
+    │   │       └── Login.jsx
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    └── vite.config.js
 ```
 
 
