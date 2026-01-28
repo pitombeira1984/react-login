@@ -37,7 +37,7 @@ react-login/
 
 
 
-## ⚙️ Como Usar (Instalação)
+**⚙️ Como Usar (Instalação)**
 
 Clone o repositório
 
@@ -58,7 +58,7 @@ O projeto será aberto em:
 
 http://localhost:5173
 
-## 📌 Funcionalidades
+**📌 Funcionalidades**
 
 ✔️ Formulário de Login com campos de entrada
 ✔️ Validação básica dos campos
@@ -66,7 +66,7 @@ http://localhost:5173
 
 💡 Essa é uma base perfeita para você adicionar conexão com APIs de autenticação, Redux ou NextAuth no futuro!
 
-## 📦 Scripts Disponíveis
+**📦 Scripts Disponíveis**
 
 No diretório do projeto, você pode rodar:
 
@@ -75,7 +75,7 @@ npm run dev	Roda a aplicação no modo de desenvolvimento
 npm run build	Gera os arquivos otimizados para produção
 npm run preview	Visualiza o build final localmente
 
-## 🛠️ Deployment
+**🛠️ Deployment**
 
 Este projeto está publicado utilizando GitHub Pages.
 Caso queira refazer o deploy:
@@ -98,11 +98,11 @@ Rode:
 
 npm run deploy
 
-## 🤝 Contribuições
+**🤝 Contribuições**
 
 Contribuições são bem-vindas!
 Quer melhorar o design, adicionar autenticação com backend ou criar validações avançadas? Abra uma issue ou faça um pull request. 😊
 
-## 📄 Licença
+**📄 Licença**
 
 No momento sem Licença.
